@@ -24,7 +24,7 @@ Manipulate well-formed Roman numerals
 %prep
 %autosetup -n %{oname}-%{version} -p1
 # fix licence parameter for flit-core
-sed -i 's/license = "0BSD OR CC0-1.0"/license = { file="LICENSE.rst" }/g' pyproject.toml
+sed -i 's/license = "0BSD OR CC0-1.0"/license = { file="LICENCE.rst" }/g' pyproject.toml
 
 %files
 %{py_sitedir}/%{oname}
