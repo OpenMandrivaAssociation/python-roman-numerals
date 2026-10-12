@@ -3,7 +3,7 @@
 
 Name:		python-roman-numerals
 Version:	4.1.0
-Release:	1
+Release:	2
 Summary:	Manipulate well-formed Roman numerals
 License:	0BSD or CC0-1.0
 Group:		Development/Python
